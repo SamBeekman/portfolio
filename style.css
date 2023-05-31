@@ -1,19 +1,89 @@
 header {
+    background-color: #13293d;
+    color: white;
+}
+
+h1 {
     display: flex;
+    padding: 60px;
+    justify-content: center;
+    font-size: 300%;
+
 }
 
 nav {
+    background-color: #13293d;
+    color: white;
+
+}
+
+ul {
     display: flex;
+    justify-content: space-evenly;
+
 }
 
-#profile {
-    width: 400px;
+li {
+    display: inline;
+    font-size: 200%;
+    background-color: aquamarine;
 }
 
-img {
-    width: 600px;
+h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 150%;
+}
+
+.me {
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 50px;
+
+}
+
+
+
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work img {
+    width: 50;
 }
 
 #first-image {
-    width: 800px;
+    width: 100;
+}
+
+
+
+
+
+
+
+
+#profile {
+    width: 400px;
+    margin: 10px 10px 20px 10px;
+}
+
+
+
+
+
+
+form {
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: antiquewhite;
 }
