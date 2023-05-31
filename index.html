@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
 </head>
@@ -14,7 +15,8 @@
     <header>
 
         <!-- photo -->
-        <img id="profile" src="./photo.jpg"
+
+        <img id="profile" src="./assets/photo.jpg"
             alt="headshot of Sam Beekman smiling in a white shirt against a backdrop of trees">
 
         <!-- name -->
@@ -37,41 +39,51 @@
             </ul>
         </nav>
 
+        <!--<img id="full-stack" src="./full stack.jpg"
+            alt="logo of full stack developer surrounded by a ring of associated languages and technologies"> -->
+
     </header>
 
     <section>
         <h2 id="about-me">About me</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odit dolore, nulla molestias aut delectus
-            provident inventore alias quaerat deleniti iste perspiciatis, laudantium nobis, accusamus labore autem totam
-            nesciunt quis.
+        <p> I would like to introduce myself as Sam, a dedicated individual who has recently embarked on a journey to
+            acquire proficiency in coding and web development. Drawing upon my background in the fields of science,
+            specifically biochemistry and molecular biology, I am now
+            actively participating in a coding bootcamp at Monash University.
+
+            The purpose of this intensive program is to equip me with the fundamental expertise necessary to pursue a
+            new and promising career in the realm of
+            information technology. In line with this endeavor, I have taken the initiative to construct a comprehensive
+            portfolio that showcases my abilities and potential value to prospective employers in the field.
         </p>
     </section>
 
     <section>
         <h2 id="my-work">My work</h2>
         <!-- images of my applications -->
-        <a href="https://sambeekman.github.io/prework-study-guide/"><img src="./prework.png"
+        <a id="first-image" href="https://sambeekman.github.io/prework-study-guide/"><img src="./assets/prework.png"
                 alt="prework study guide"></a>
-        <a href="https://sambeekman.github.io/caterrific-landing-page/"><img src="./CATerrific.png"
+        <a href="https://sambeekman.github.io/caterrific-landing-page/"><img src="./assets/CATerrific.png"
                 alt="cat breed information and adoption site"></a>
-        <a href="#"><img src="./placeholder.jpg" alt="app 3"></a>
+        <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a>
+        <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a>
+        <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a>
+        <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a>
         <!-- first image larger than the rest -->
         <!-- clicking on the images takes you to the deployed application -->
     </section>
 
     <section>
         <h2 id="contact">Contact</h2>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name">
-            <br>
-            <label for="email">Email</label>
-            <input type="text" id="email">
-            <br>
-            <label for="message">Message</label>
-            <input type="text" id="message">
-            <br>
-            <input type="button" value="Send">
+        <form action="mailto:sambeekman@hotmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name" placeholder="First"><input type="text" name="name" placeholder="Last"><br>
+            Email:<br>
+            <input type="text" name="email" placeholder="me@example.com"><br>
+            Message:<br>
+            <input type="text" name="message" placeholder="Type your message here" size="50"></input><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
         </form>
     </section>
 

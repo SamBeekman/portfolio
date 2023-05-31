@@ -6,6 +6,14 @@ nav {
     display: flex;
 }
 
-img {
+#profile {
     width: 400px;
+}
+
+img {
+    width: 600px;
+}
+
+#first-image {
+    width: 800px;
 }
