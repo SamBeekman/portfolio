@@ -4,6 +4,9 @@
 
 This is the week 2 challenge project for the Monash Coding Bootcamp, we were tasked with creating a portfolio to show prospecive employers. This portfolio was a culmination of the many skills we have learnt in the past 2 weeks.
 
+https://sambeekman.github.io/portfolio/
+
+![sambeekman github io_portfolio_](https://github.com/SamBeekman/portfolio/assets/131665093/3c206abc-8d5e-4a4c-aed2-6fdc51a2cc93)
 
 
 
