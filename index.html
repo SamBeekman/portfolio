@@ -4,44 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style9.css">
     <title>Portfolio</title>
 </head>
-
-<!-- layout has to be responsive -->
 
 <body>
 
     <header>
         <h1>Sam Beekman's Portfolio</h1><br>
         <nav>
-            <!-- links to 'about me', 'my work' and 'contact info (or form)' -->
             <ul>
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#my-work">My work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
-        <!--<img id="full-stack" src="./full stack.jpg"
-            alt="logo of full stack developer surrounded by a ring of associated languages and technologies"> -->
-
     </header>
 
-    <section class="me">
+    <article class="me">
         <h2 id="about-me">About me</h2>
-        <!-- photo -->
-
         <img id="profile" src="./assets/photo.jpg"
-            alt="headshot of Sam Beekman smiling in a white shirt against a backdrop of trees">
-
-        <!-- name -->
+            alt="headshot of Sam Beekman smiling in a white shirt against a backdrop of trees" height="1000px"
+            width="1200px">
         <p> I would like to introduce myself as Sam, a dedicated individual who has recently embarked on a journey
             to
             acquire proficiency in coding and web development. Drawing upon my background in the fields of science,
             specifically biochemistry and molecular biology, I am now
             actively participating in a coding bootcamp at Monash University.
-
+            <br>
+            <br>
             The purpose of this intensive program is to equip me with the fundamental expertise necessary to pursue
             a
             new and promising career in the realm of
@@ -49,28 +40,34 @@
             comprehensive
             portfolio that showcases my abilities and potential value to prospective employers in the field.
         </p>
+    </article>
 
-    </section>
+    <h2 id="my-work">My work</h2>
 
-    <section>
-        <h2 id="my-work">My work</h2>
-        <!-- images of my applications -->
-        <div class="work">
-            <a id="first-image" href="https://sambeekman.github.io/prework-study-guide/"><img src="./assets/prework.png"
-                    alt="prework study guide"></a><br>
-            <a href="https://sambeekman.github.io/caterrific-landing-page/"><img src="./assets/CATerrific.png"
-                    alt="cat breed information and adoption site"></a>
-            <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a><br>
-            <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a>
-            <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a><br>
-            <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a>
-            <a href="#"><img src="./assets/placeholder.jpg" alt="app 3"></a>
+    <main class="container">
+        <div class="item item-1">
+            <h3>Prework Study Guide</h3><a href="https://sambeekman.github.io/prework-study-guide/"><img
+                    id="first-image" src="./assets/prework.png" alt="prework study guide"></a>
         </div>
-        <!-- first image larger than the rest -->
-        <!-- clicking on the images takes you to the deployed application -->
-    </section>
+        <div class="item item-2">
+            <h3>CATerrific Landing Page<a href="https://sambeekman.github.io/caterrific-landing-page/"><img id="image"
+                        src="./assets/CATerrific.png" alt="cat breed information and adoption site"></a>
+        </div>
+        <div class="item item-3">
+            <h3>Placeholder Title</h3><a href="#"><img id="image" src="./assets/placeholder.jpg" alt="app 3"></a>
+        </div>
+        <div class="item item-4">
+            <h3>Placeholder Title</h3><a href="#"><img id="image" src="./assets/placeholder.jpg" alt="app 3"></a>
+        </div>
+        <div class="item item-5">
+            <h3>Placeholder Title</h3><a href="#"><img id="image" src="./assets/placeholder.jpg" alt="app 3"></a>
+        </div>
+    </main>>
 
-    <section class="contact-form">
+
+
+
+    <footer class="contact-form">
         <h2 id="contact">Contact</h2>
         <form action="mailto:sambeekman@hotmail.com" method="post" enctype="text/plain">
             Name:<br>
@@ -83,7 +80,7 @@
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
         </form>
-    </section>
+    </footer>
 
 </body>
 

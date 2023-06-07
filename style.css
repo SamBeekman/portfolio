@@ -1,6 +1,25 @@
-header {
-    background-color: #13293d;
-    color: white;
+/* color palette */
+:root {
+    --green--: #244d3d;
+    --yellow--: rgb(237 211 39);
+    --white--: white;
+    --blue--: #13293d;
+    --purple--: #8b789d;
+}
+
+
+/* universal selector */
+* {
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 7px;
+}
+
+
+/* body and heading stylings */
+body {
+    background-color: var(--green--);
 }
 
 h1 {
@@ -8,82 +27,146 @@ h1 {
     padding: 60px;
     justify-content: center;
     font-size: 300%;
-
-}
-
-nav {
-    background-color: #13293d;
-    color: white;
-
-}
-
-ul {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-li {
-    display: inline;
-    font-size: 200%;
-    background-color: aquamarine;
 }
 
 h2 {
     text-align: center;
     padding: 30px;
-    font-size: 150%;
+    font-size: 200%;
+    color: var(--yellow--);
 }
 
-.me {
+h3 {
+    text-align: center;
+    justify-content: center;
+    font-size: 150%;
+    padding: 20px;
+    color: var(--white--);
+    display: contents;
+}
+
+
+/* Header and Nav bar styling */
+header {
+    background-color: var(--blue--);
+    color: var(--white--);
+}
+
+nav {
+    background-color: var(--blue--);
+    color: var(--white--);
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline;
+    font-size: 200%;
+    background-color: var(--yellow--)
+}
+
+
+/* About Me section */
+article {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     text-align: center;
 }
 
-p {
-    margin-left: 30%;
-    margin-right: 30%;
-    padding: 50px;
-
-}
-
-
-
-
-.work {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.work img {
-    width: 50;
-}
-
-#first-image {
-    width: 100;
-}
-
-
-
-
-
-
-
-
 #profile {
-    width: 400px;
+    width: 20vw;
+    height: 20vh;
     margin: 10px 10px 20px 10px;
 }
 
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px;
+    color: var(--white--)
+}
 
 
+/* Project cards including image sizing and Flexbox attributes */
+main img {
+    height: 400px;
+    width: 400px;
+}
+
+#first-image {
+    width: 800px;
+    height: 800px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-1 {
+    width: 90%;
+    background-color: var(--purple--);
+    margin: 0 25% 2% 25%;
+}
+
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+    width: 35%;
+    margin: 1%;
+    background-color: var(--purple--);
+}
 
 
+/* Media Query for Phone */
+@media screen and (max-width:786px) {
 
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5 {
+        width: 50%;
+    }
+
+    main img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #first-image {
+        width: 500px;
+        height: 500px;
+    }
+
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+/* Contact Form  */
 form {
     text-align: center;
-    border: 2px solid black;
-    margin-left: 45%;
-    margin-right: 45%;
-    background-color: antiquewhite;
+    margin: 0 auto;
+    background-color: var(--blue--);
+    color: var(--white--)
+}
+
+textarea {
+    width: 20vw;
+    height: 10vh;
 }
