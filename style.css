@@ -13,7 +13,6 @@
     line-height: normal;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    padding: 7px;
 }
 
 
@@ -42,7 +41,6 @@ h3 {
     font-size: 150%;
     padding: 20px;
     color: var(--white--);
-    display: contents;
 }
 
 
@@ -93,15 +91,12 @@ p {
 
 
 /* Project cards including image sizing and Flexbox attributes */
-main img {
-    height: 400px;
-    width: 400px;
+main img,
+main a {
+    height: 100%;
+    width: 100%;
 }
 
-#first-image {
-    width: 800px;
-    height: 800px;
-}
 
 .container {
     display: flex;
@@ -113,10 +108,11 @@ main img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .item-1 {
-    width: 90%;
+    width: 100%;
     background-color: var(--purple--);
     margin: 0 25% 2% 25%;
 }
@@ -134,21 +130,22 @@ main img {
 /* Media Query for Phone */
 @media screen and (max-width:786px) {
 
+    .item-1 {}
+
     .item-2,
     .item-3,
     .item-4,
     .item-5 {
         width: 50%;
+
     }
 
-    main img {
-        height: 200px;
-        width: 200px;
-    }
 
-    #first-image {
-        width: 500px;
-        height: 500px;
+
+    #first-image,
+    .item-1 a {
+        width: 450px;
+        height: 400px;
     }
 
     p {
