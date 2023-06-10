@@ -1,33 +1,23 @@
-# Task Requirements
+# Portfolio
 
-## User Story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## Description
 
-## Acceptance Criteria
+This is the week 2 challenge project for the Monash Coding Bootcamp, we were tasked with creating a portfolio to show prospecive employers. This portfolio was a culmination of the many skills we have learnt in the past 2 weeks.
 
-GIVEN I need to sample a potential employee's previous work
+https://sambeekman.github.io/portfolio/
 
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+![sambeekman github io_portfolio_](https://github.com/SamBeekman/portfolio/assets/131665093/3c206abc-8d5e-4a4c-aed2-6fdc51a2cc93)
 
 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+
+## Installation
+
+N/A
+
+## Usage
+
+To view this portfolio you can click on the links in the nav bar to take you to the corresponding section of the page. 
+Clicking on the project images will take you directly to the deployed projects.
+Filling out the Contact form will send a message to me via email.
 
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
