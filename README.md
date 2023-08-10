@@ -6,8 +6,7 @@ This is the week 2 challenge project for the Monash Coding Bootcamp, we were tas
 
 https://sambeekman.github.io/portfolio/
 
-![sambeekman github io_portfolio_](https://github.com/SamBeekman/portfolio/assets/131665093/3c206abc-8d5e-4a4c-aed2-6fdc51a2cc93)
-
+![sambeekman github io_portfolio_ (1)](https://github.com/SamBeekman/portfolio/assets/131665093/ad7db732-67cf-4012-88b5-99a87985fb35)
 
 
 ## Installation
